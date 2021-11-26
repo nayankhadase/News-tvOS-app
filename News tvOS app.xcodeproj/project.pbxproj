@@ -11,6 +11,10 @@
 		10E6FB2E27451B3000750F06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E6FB2D27451B3000750F06 /* ViewController.swift */; };
 		10E6FB3127451B3000750F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E6FB2F27451B3000750F06 /* Main.storyboard */; };
 		10E6FB3327451B3600750F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10E6FB3227451B3600750F06 /* Assets.xcassets */; };
+		10E6FB3B2745205200750F06 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E6FB3A2745205200750F06 /* TableViewCell.swift */; };
+		10E6FB3D2745206600750F06 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E6FB3C2745206600750F06 /* CollectionViewCell.swift */; };
+		10E6FB402745209000750F06 /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E6FB3F2745209000750F06 /* NewsData.swift */; };
+		10E6FB44274532C500750F06 /* NewsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E6FB43274532C500750F06 /* NewsArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		10E6FB3027451B3000750F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10E6FB3227451B3600750F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10E6FB3427451B3600750F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E6FB3A2745205200750F06 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		10E6FB3C2745206600750F06 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		10E6FB3F2745209000750F06 /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		10E6FB43274532C500750F06 /* NewsArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +61,24 @@
 			isa = PBXGroup;
 			children = (
 				10E6FB2B27451B3000750F06 /* AppDelegate.swift */,
+				10E6FB3E2745207500750F06 /* Model */,
 				10E6FB2D27451B3000750F06 /* ViewController.swift */,
+				10E6FB3A2745205200750F06 /* TableViewCell.swift */,
+				10E6FB3C2745206600750F06 /* CollectionViewCell.swift */,
 				10E6FB2F27451B3000750F06 /* Main.storyboard */,
 				10E6FB3227451B3600750F06 /* Assets.xcassets */,
 				10E6FB3427451B3600750F06 /* Info.plist */,
 			);
 			path = "News tvOS app";
+			sourceTree = "<group>";
+		};
+		10E6FB3E2745207500750F06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10E6FB3F2745209000750F06 /* NewsData.swift */,
+				10E6FB43274532C500750F06 /* NewsArray.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E6FB44274532C500750F06 /* NewsArray.swift in Sources */,
+				10E6FB3B2745205200750F06 /* TableViewCell.swift in Sources */,
 				10E6FB2E27451B3000750F06 /* ViewController.swift in Sources */,
+				10E6FB3D2745206600750F06 /* CollectionViewCell.swift in Sources */,
 				10E6FB2C27451B3000750F06 /* AppDelegate.swift in Sources */,
+				10E6FB402745209000750F06 /* NewsData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
